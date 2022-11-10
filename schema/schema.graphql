@@ -1,0 +1,10 @@
+
+schema {
+    query: Query
+}
+
+type Todo {
+    id: ID!
+    todoText: String!
+    progress: Boolean!
+}
